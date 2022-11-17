@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:   rgb(26, 25, 25); 
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+width: 20%;
+    padding: 80px;
+    
+    color: #fff;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.IMG1{
+    width: 8%;
+    
+
+ 
+        
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+background-color: rgb(65, 170, 255);
+box-shadow: 0px 5px 5px rgba(7, 25, 49, 0.466);
+padding: 5px;
+justify-content: space-between;
+gap: 24%;
+
+}
+header ul a:hover{
+    font-size: 105%;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header ul{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+header a{
+    
+    transition: 0.3s;
+    color: #fff;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 0px 5px 5px rgb(44, 59, 141);
+}
+
+header a:hover{
+    background-color: rgb(21, 51, 116);
+}
+
+#perfil{
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    width: 8%;
+}
+
+footer{
+    width: 100%;
+position:  absolute;
+bottom: 0%;
+    background-color: rgb(60, 151, 226);
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    gap: 5%;
+}
+
+.login1{
+    padding: 1%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.arredondado{
+    
+    border-radius: 15px;
+}
+
+.agendamentos{
+    transition: 0.3s    ;
+    background-color: rgb(0, 0, 0);
+   
+}
+.agendamentos:hover{
+    font-size: 107%;
+    transition: 0.5s;
+    color: aqua;
+    box-shadow: 10px 5px 5px rgb(36, 75, 119);
+}
+
+#buttonred{
+    transition: 0.1s;
+    background-color: rgb(63, 16, 16);
+}
+
+.agendamentos2{
+    transition: 0.3s    ;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px rgb(62, 63, 68);
+}
+
+#buttonred:hover{
+    background-color: rgb(177, 2, 37);
+}
+
+#relatorio{
+    background-color: rgb(26, 25, 25);
+}
+
+#relato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+color: rgb(255, 255, 255);
+width: 100%;
+
+
+}
+
+#relato p{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    padding: 1% ;
+}
+
+#relato p:hover{
+    font-size: 105%;
+    transition: 0.2s;
+    box-shadow: 5px 2px 15px 15px rgb(43, 91, 180);
+    width: 100%;
+    color: aqua;
+}
+
+#config1:hover{
+    font-size: 105%;
+}
